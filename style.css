@@ -5,390 +5,6 @@
 }
 body,html{
     overflow-x: hidden;
-    transition: all 1.5s ease;
-}
-
-a{
-    text-decoration: none;
-}
-
-header{
-    width:100vw;
-    height:70px;
-    background-color:#e02f37;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.header-content{
-    
-    font-weight:bolder;
-    color: whitesmoke;
-    font-size: 16px;
-    font-family: arial;
-    
-}
-
-
-.navbar{
-    
-    display:flex;
-    justify-content: space-between;
-    margin-top:30px;
-    width:100vw;
-    height:70px;
-    
-}
-
-
-
-.nav-links li{
-    display: inline;
-    padding-left:13px;
-    padding-right:13px;
-}
-
-.nav-links{
-    
-    margin-top: 22px;
-    margin-right: 75px;
-   
-   
-}
-
-
-.logo{
-    
-    padding-top:15px;
-    padding-left: 35px;
-    font-weight:bold;
-    font-size: 20px;
-    letter-spacing: 0.2em;
-    font-family: Arial;
-}
-
-.underline{
-   
-   margin-left:30px;
-    width:200px;
-    border-radius: 3px;
-    height:4px;
-    background-color: #e32c30;
-}
-
-.lelogo{
-    display: block;
-    width:300px;
-    height:69px;
-    
-}
-
-
-
-.nav-links a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:black;
-    font-size: 15px;
-    letter-spacing: .1em;
-}
-a:hover{
-    color:#e02f37;
-}
-.act{
-
-border: 3px solid red;
-padding: 10px 18px;
-border-radius: 25px
-}
-
-
-
-section.home{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-    
-    width:100vw;
-    height:380px;
-    
-    
-   
-}
-
-.heading{
-    
-     margin-left: 90px;
-     font-size:45px;
-    font-family:"lucida";
-}
-.para{
-    margin-top:20px;
-    
-    font-size: 22px;
-    margin-left:90px;
-    font-family:"calibri";
-    
-
-}
-
-
-.writing{
-    display: flex;
-    justify-content: space-between;
-    display:block;
-    
-    height:380px;
-    
-    
-}
-
-
-.videobdr{
-    
-    margin-left:px;
-    
-}
-
-.bdr{
-    
-    margin-top: 0px;
-    margin-right: 70px;
-
-    width:630px;
-    height:355px;
-    border:4px solid #e81a25bf;
-    border-radius: 10px;
-
-}
-.videoo{
-    position: absolute;
-    top:270px;
-    right:30px;
-    border-radius:3px;
-    
-}
-
-
-
-
-.sub1{
-    padding-top:35px
-}
-.about1{
-    margin-left: 90px;
-    display:flex;
-}
-
-.ab1{
-    color:black;
-    border:1px solid red;
-    background-color: red;
-    padding:15px 35px;
-    border-radius:25px ;
-    font-family: arial;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.ab2{
-    margin-left:35px;
-    margin-top:15px;
-    
-}
-
-.ab3{
-    font-family: arial;
-    font-weight:bold;
-    word-spacing: .2em;
-    font-size:15px;
-}
-.abline{
-    width:127px;
-    height:3px;
-    background-color: red;
-    margin-top: 0px;
-    border-radius: 15px;
-}
-
-
-.sp{
-   height:12px;
-}
-
-.logos{
-    margin-left: 90px;
-    margin-right:85px;
-    
-    
-    margin-top: 80px;
-    margin-left: 90px;
-   
-    
-}
-
-.logo1{
-    margin-right: 1px;
-    font-family:sans-serif;
-    font-weight:bolder;
-    font-style: italic;
-    color: rgb(53, 52, 52);
-    
-}
-
-
-
-
-
-.end{
-    display:flex;
-    margin-top: 70px;
-    width:100vw;
-}
-
-.hea{
-    
-    margin-left:90px;
-    font-size: 30px;
-    font-family:lucida;
-    
-}
-
-.par{
-    margin-top:10px;
-    margin-left: 160px;
-    font-size:22px;
-    width:650px;
-    font-family: Arial;
-    
-}
-
-
-select{
-    margin-top: 10px;
-    margin-left: 100px;
-    border-radius: 25px;
-    padding: 10px 30px;
-    font-weight: bold;
-    
-}
-
-@media(max-width:1322px){
-    section.home{
-        
-        display:flex;
-        flex-direction:column;
-        height:900px;
-    }
-    .bdr{
-        display:none;
-    }
-
-    .videoo{
-        position:absolute;
-        top:630px;
-        right:250px;
-    }
-
-    .writing{
-        display:block;
-        text-align: center;
-    }
-    .para{
-        margin-top:20px;
-        
-        font-size: 22px;
-        text-align: center;
-        
-        margin-left:45px;
-        margin-right:45px;
-        
-        
-    
-        font-family:"calibri";
-    }
-
-    
-}
-
-
-
-@media(max-width:981px)
-{
-
-
-    .navbar{
-    
-        display:block;
-        margin-top:2px;
-        width:100vw;
-        height:70px;
-        
-    }
-
-    .bdr{
-        display: none;
-    }
-    
-    
-    .nav-links li{
-       font-size: 30px;
-       
-        
-    }
-    
-    .nav-links{
-        
-       float:right;
-       
-        
-       
-    }
-    
-    
-    .logo{
-        
-        padding-top:15px;
-        padding-left: 35px;
-        font-weight:bold;
-        font-size: 20px;
-        letter-spacing: 0.2em;
-        font-family: Arial;
-    }
-    
-    .underline{
-       
-       margin-left:30px;
-        width:200px;
-        border-radius: 3px;
-        height:4px;
-        background-color: #e32c30;
-    }
-    
-    .lelogo{
-        display: block;
-        width:300px;
-        height:69px;
-    }
-    .videoo{
-        position:absolute;
-        top:630px;
-        right:85px;
-    }
-    
-
-
-}
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body,html{
-    overflow-x: hidden;
 }
 
 a{
@@ -656,18 +272,18 @@ section.about{
 
 
 
-a.jj:visited{
-    color:black;
+a.jj{
+    color:whitesmoke;
 }
 
 a.jj:hover{
-    color:white;
+    color:black;
 }
 a.jj:active{
     color:yellow;
 }
 
-a.hh:visited{
+a.hh{
     color: black;
 }
 a.hh:hover{
@@ -676,6 +292,28 @@ a.hh:hover{
 a.hh:active{
     color:yellow;
 }
+
+.clr{
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+
+
+    }
+
+
+    select{
+        margin-left: 5px;
+        height:30px;
+        border-radius: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+
+
+
 @media(max-width:1322px){
     section.home{
         
@@ -851,18 +489,40 @@ a.hh:active{
 
     }
 
-    a:visited{
-        color: whitesmoke;
-    }
-
-    a:hover{
+    nav a:hover{
         color:yellow;
     }
 
-    a:active{
+    nav a:active{
         color:#e32c30;
 
     }
+   
+     .about1{
+        margin-left:50px;
+     }
+     .logos{
+        margin-left: 80px;
+     }
+     .hea h2{
+        display: inline;
+        width: auto;
+        height: fit-content;
+        margin-right: 8px;
+     }
+
+     .par{
+        margin-top: 40px;
+        width:auto;
+        height: auto;
+        margin-right: 12px;
+        
+
+     }
+
+    
+
+    
    
 
 
